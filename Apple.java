@@ -15,7 +15,7 @@ public class Apple extends Fruit {
 			System.out.println("\nTotal price: RM" + totalPrice());
 		
 		}
-			else if (this.quantity > 10 && this.quantity < 100) {
+			else if (this.quantity > 15 && this.quantity < 100) {
 			double pp = 1.50; 
 			totalPrice(pp); ///overloading with 1 arguments as price=1.50 if quantity > 15
 			System.out.println(name);
