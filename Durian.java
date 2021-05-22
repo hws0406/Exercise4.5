@@ -3,7 +3,7 @@ public class Durian extends Apple{
 	private char thorns;
 	private double kcal = 800;
 	
-	public Durian(String name, char t, int c, int q, double p) {
+	public Durian(String name, char t, int q, double p) {
 		super(name, q, p);
 		this.thorns = t;
 		System.out.println("Durian constructor is invoked");
