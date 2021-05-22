@@ -4,7 +4,7 @@ public class Mango extends Fruit{
 	private int weight;
 	
 	public Mango(String name, String s, int w) {
-		super(name, quantity , price);
+		super(name, q , p);
 		System.out.println("Mango constructor is invoked");
 		this.size = s;
 		this.weight = w;
